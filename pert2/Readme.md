@@ -1,0 +1,1 @@
+pada pertemuan ke 2, saya belajar cara push github atau add file ke github
