@@ -1,0 +1,1 @@
+pada pertemuan pertama, saya belajar cara install wsl ubuntu, dan menginstall plugin zsh

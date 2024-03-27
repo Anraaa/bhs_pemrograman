@@ -1,7 +1,7 @@
 # GITHUB COMMAND LINE SAAT INISIALISASI PROJECT
 
 - git init
-digunakanan untuk
+digunakanan untuk menginisialisasi
 
 - git add .
 digunakan untuk
