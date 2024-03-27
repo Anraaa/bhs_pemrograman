@@ -1,1 +1,1 @@
-pada praktikum pertemuan ke 2, saya belajar cara membuat repository di github dan push atau add nya
+pada praktikum pertemuan ke 2, saya belajar cara membuat repository di github dan push atau add folder dan filenya. serta belajar git command line nya
