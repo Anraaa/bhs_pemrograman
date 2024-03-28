@@ -21,3 +21,13 @@
 7. **Bahasa Pemrograman Skrip (Scripting Programming Languages)**: Bahasa pemrograman yang dirancang untuk menulis skrip yang menjalankan tugas-tugas tertentu dalam berbagai konteks, seperti otomatisasi administrasi sistem atau pengembangan web. Contoh termasuk Python, Ruby, dan Perl.
 
 Setiap jenis bahasa pemrograman memiliki karakteristik dan kegunaannya sendiri, dan pilihan bahasa pemrograman yang tepat tergantung pada kebutuhan dan tujuan proyek yang sedang dihadapi.
+
+### Paradigma Pemrograman
+
+*kerangka pemikiran atau pendekatan sistematis untuk memandu proses pemrograman komputer. Ini mencakup seperangkat aturan, prinsip, dan konsep yang membentuk cara pemrogram melakukan perencanaan, pembuatan, dan implementasi perangkat lunak. Paradigma pemrograman memengaruhi cara programmer memandang masalah, merancang solusi, dan mengekspresikan instruksi kepada komputer.*
+
+### Jenis-jenis Paradigma Pemrograman
+
+1. Imperatif: Berfokus pada urutan langkah-langkah yang harus diambil untuk mencapai hasil tertentu. Contoh: bahasa C.
+ :memo: **Note:** Imperatif atau biasa dikenal prosedural.
+2. Fungsional: Berfokus pada penggunaan fungsi sebagai unit utama komputasi, dengan penekanan pada penghindaran perubahan keadaan dan efek samping. Contoh: Haskell, Scala. 
