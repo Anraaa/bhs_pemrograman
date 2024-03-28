@@ -78,7 +78,7 @@ ___
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
 
-### How To FIX `error: failed to push some ref to [remote repo]`
+## How To FIX `error: failed to push some ref to [remote repo]`
 
 *Untuk mengatasi masalah ini, jalankan perintah git pull pada repositori lokal Anda. Hal ini seharusnya memungkinkan Anda untuk melakukan push ke origin lagi.*
 
