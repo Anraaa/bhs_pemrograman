@@ -2,8 +2,7 @@
 <a href="https://github.com/Anraaa/bhs_pemrograman"><img title="Bahasa Pemrograman" src="https://img.shields.io/badge/Bahasa_Pemrograman-red?style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://github.com/Anraaa"><img title="Author" src="https://img.shields.io/badge/author-Anraaa-red?style=for-the-badge&logo=github
-"></a>
+<a href="https://github.com/Anraaa"><img title="Author" src="https://img.shields.io/badge/author-Anraaa-red?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="https://github.com/Anraaa/"><img title="Followers" src="https://img.shields.io/badge/social-media-red?style=for-the-badge"></a> </p>
