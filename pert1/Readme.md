@@ -1,8 +1,10 @@
-## TEORI
+# TEORI
 
 ### Pengenalan Bahasa Pemrograman
 
 *Bahasa pemrograman adalah aturan atau kumpulan instruksi yang digunakan oleh programmer untuk memberikan komputer arahan tentang cara melakukan tugas tertentu. Ini adalah sarana untuk berkomunikasi dengan komputer, memungkinkan programmer untuk merancang, mengembangkan, dan mengontrol perilaku program komputer. Dengan menggunakan bahasa pemrograman, programmer dapat membuat perangkat lunak, aplikasi web, permainan, dan banyak lagi*
+
+___
 
 ### Jenis-jenis Bahasa Pemrograman
 
@@ -22,12 +24,18 @@
 
 Setiap jenis bahasa pemrograman memiliki karakteristik dan kegunaannya sendiri, dan pilihan bahasa pemrograman yang tepat tergantung pada kebutuhan dan tujuan proyek yang sedang dihadapi.
 
+___
+
 ### Paradigma Pemrograman
 
 *kerangka pemikiran atau pendekatan sistematis untuk memandu proses pemrograman komputer. Ini mencakup seperangkat aturan, prinsip, dan konsep yang membentuk cara pemrogram melakukan perencanaan, pembuatan, dan implementasi perangkat lunak. Paradigma pemrograman memengaruhi cara programmer memandang masalah, merancang solusi, dan mengekspresikan instruksi kepada komputer.*
+
+___
 
 ### Jenis-jenis Paradigma Pemrograman
 
 1. Imperatif: Berfokus pada urutan langkah-langkah yang harus diambil untuk mencapai hasil tertentu. Contoh: bahasa C.
 > :memo: **Note:** Imperatif atau biasa dikenal dengan prosedural.
 2. Fungsional: Berfokus pada penggunaan fungsi sebagai unit utama komputasi, dengan penekanan pada penghindaran perubahan keadaan dan efek samping. Contoh: Haskell, Scala. 
+3. Berorientasi Objek: Berfokus pada pemodelan dunia nyata dengan mengorganisir kode ke dalam objek yang memiliki atribut dan metode. Contoh: Java, Python.
+4. Deklaratif: Berfokus pada mendeskripsikan apa yang harus dicapai tanpa menentukan langkah-langkah spesifik. Contoh: SQL untuk basis data.
