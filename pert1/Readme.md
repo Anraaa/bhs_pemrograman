@@ -29,5 +29,5 @@ Setiap jenis bahasa pemrograman memiliki karakteristik dan kegunaannya sendiri, 
 ### Jenis-jenis Paradigma Pemrograman
 
 1. Imperatif: Berfokus pada urutan langkah-langkah yang harus diambil untuk mencapai hasil tertentu. Contoh: bahasa C.
- :memo: **Note:** Imperatif atau biasa dikenal prosedural.
+> :memo: **Note:** Imperatif atau biasa dikenal dengan prosedural.
 2. Fungsional: Berfokus pada penggunaan fungsi sebagai unit utama komputasi, dengan penekanan pada penghindaran perubahan keadaan dan efek samping. Contoh: Haskell, Scala. 
