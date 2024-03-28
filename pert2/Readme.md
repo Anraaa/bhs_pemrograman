@@ -17,13 +17,13 @@
 
 #### Hello World dalam Python
 
-```
+```python
 print ("Hello World)
 ```
 
 #### Integer dalam Python
 
-```
+```python
 a = 3
 b = 2
 print (a+b)
@@ -31,6 +31,6 @@ print (a+b)
 
 #### String dalam Python
 
-```
+```python
 nama = "Aqla"
 print (nama)
