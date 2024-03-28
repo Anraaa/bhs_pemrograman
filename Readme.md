@@ -12,8 +12,8 @@
 
 | Command | Description |
 | --------| :-----------: |
-| `git add .` | Menginisialisasi Local Git Repository |
-| `git commit -m "pesan"` | Menginisialisasi Local Git Repository |
-| `git push` | Menginisialisasi Local Git Repository |
+| `git add .` | Perintah yang digunakan dalam Git untuk menambahkan semua perubahan yang ada dalam direktori kerja saat ini ke dalam staging area. |
+| `git commit -m "pesan"` | Digunakan untuk membuat commit dalam Git dengan pesan tertentu. |
+| `git push` | Digunakan untuk mengirimkan (atau "push") perubahan yang terkomit dalam repository lokal Anda ke repository yang sesuai di server Git. |
 
 ___
