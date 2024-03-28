@@ -1,3 +1,7 @@
+## How To Fix `error: failed to push some refs to [remote repo]`
+
+Untuk mengatasi masalah tersebut, silahkan [klik disini](HowToFix.md)
+
 ## GITHUB COMMAND LINE SAAT INISIALISASI PROJECT
 
 | Command | Description |
