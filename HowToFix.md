@@ -19,6 +19,10 @@ ___
 
 > :warning: **Warning:** Menggunakan `--force` untuk mencoba memperbaiki kesalahan "failed to push some refs to" hanya akan menghasilkan lebih banyak kesalahan dalam jangka panjang. Ini terjadi karena `--force` menggunakan metode kekerasan yang menjadikan kode Anda saat ini dan ref head-nya sebagai sumber kebenaran.
 
+<br>
+
 > :memo: **Note:** Akibatnya, perubahan di remote dapat ditimpa oleh apa yang telah Anda dorong, menghapus fitur atau pembaruan yang mungkin telah dikomit oleh pengembang lain.
+
+<br>
 
 > :bulb: **Tip:** Hanya gunakan `--force` jika Anda nyaman dengan fitur yang tidak ada di lokal Anda akan ditimpa dengan apa yang Anda miliki saat ini. Gunakan opsi `--force` jika Anda yakin bahwa repositori lokal Anda dalam keadaan yang benar saat ini.
