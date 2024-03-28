@@ -17,7 +17,5 @@
 | `git commit -m "pesan"` | Menginisialisasi Local Git Repository |
 | `git push` | Menginisialisasi Local Git Repository |
 
-- git add .
-- git commit -m "pesannya"
-- git push
+` git add . <br> git commit -m "pesannya" <br> git push `
 
