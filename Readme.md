@@ -12,6 +12,12 @@
 <a href="https://github.com/Anraaa"><img title="ig" src="https://img.shields.io/badge/twit-user_not_found-red?style=flat-square"></a>
 </p>
 
+<br>
+
+___
+
+<br>
+
 ## How To Fix `error: failed to push some refs to [remote repo]`
 
 Untuk mengatasi masalah tersebut, silahkan [klik disini](HowToFix.md)
