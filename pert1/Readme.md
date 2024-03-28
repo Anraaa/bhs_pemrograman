@@ -1,12 +1,12 @@
 ## Praktikum
 ```
-Pada pertemuan pertama, kami memulai dengan proses instalasi Windows Subsystem for Linux (WSL), Ubuntu, dan Docker. 
+Pada pertemuan pertama, saya memulai dengan proses instalasi Windows Subsystem for Linux (WSL), Ubuntu, dan Docker. 
 
 Setelah berhasil menginstal WSL Ubuntu, langkah selanjutnya adalah melakukan konfigurasi terminal Ubuntu untuk memastikan kenyamanan penggunaan. 
 
-Kami mempelajari beberapa command line dasar Linux untuk membiasakan diri dengan lingkungan terminal, membantu dalam navigasi, manajemen file, dan administrasi sistem. Menjelang akhir pertemuan, kami melangkah lebih jauh dengan menginstal plugin Zsh untuk meningkatkan fungsionalitas dan tampilan terminal, menciptakan pengalaman pengguna yang lebih menyenangkan dan efisien.
+saya mempelajari beberapa command line dasar Linux untuk membiasakan diri dengan lingkungan terminal, membantu dalam navigasi, manajemen file, dan administrasi sistem. Menjelang akhir pertemuan, saya mempelajari cara menginstal plugin Zsh untuk meningkatkan fungsionalitas dan tampilan terminal, menciptakan pengalaman pengguna yang lebih menyenangkan dan efisien.
 
-Dengan demikian, dari langkah awal instalasi hingga peningkatan pengalaman pengguna dengan plugin Zsh, pertemuan pertama ini memberikan landasan yang kuat untuk memulai perjalanan kami dalam menguasai lingkungan pengembangan Linux.
+Dengan demikian, dari langkah awal instalasi hingga peningkatan pengalaman pengguna dengan plugin Zsh, pertemuan pertama ini memberikan landasan yang kuat untuk memulai perjalanan saya dalam menguasai lingkungan pengembangan Linux.
 ```
 
 ## TEORI
