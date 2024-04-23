@@ -1,0 +1,24 @@
+@startmindmap controlstatement
+*[#Orange] Control Statements
+**[#LightGreen] Selection Statements
+***[#LightSeaGreen] if else
+***[#LightSeaGreen] switch Case
+**[#LightBlue] Iteration Statements
+***[#LightCyan] while
+***[#LightCyan] do while
+***[#LightCyan] for
+**[#OrangeRed] Jump Statements
+***[#LightSalmon] break
+***[#LightSalmon] goto
+***[#LightSalmon] continue
+
+header 
+Pertemuan 3
+endheader
+title Control Statement
+caption copyright@esaunggul.ac.id
+legend left
+    CTI211-Pemograman Berorientasi Objek 
+endlegend
+
+@endmindmap
