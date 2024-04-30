@@ -1,0 +1,6 @@
+@startuml Trial
+    start
+    while (input angka1, angka2)
+    :read angka1;
+    :read angka2;
+@enduml

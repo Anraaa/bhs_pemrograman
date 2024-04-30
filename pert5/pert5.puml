@@ -1,0 +1,26 @@
+@startuml pert5
+start
+:initialize Variables;
+while (pilih !='5') is (control statement)
+    :show menu;
+    :Get User Input(pilih);
+    if (pilih == '1') then (case 1)
+        :Get Input (a,b);
+        :Call tambah(a,b);
+    else if (pilih == '2') then (case 2)
+        :Get Input (a,b);
+        :Call kurang(a,b);
+    else if (pilih == '3') then (case 3)
+        :Get Input (a,b);
+        :Call kali(a,b);
+    else if (pilih == '4') then (case 4)
+        :Get Input (a,b);
+        :Call bagi(a,b);
+    else
+        :Display "Pilihan Salah!";
+    endif
+
+endwhile (control statement)
+:Display "Terima Kasih";
+stop
+@enduml
