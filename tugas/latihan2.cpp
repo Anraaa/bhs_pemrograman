@@ -1,20 +1,15 @@
 #include <iostream>
+#include <cctype>
 
 using namespace std;
 
 int main(){
-for (int a; a <= 10; a++){
-    cout << a << endl;
-}
 
+    char huruf;
 
-char huruf;
-
-for (huruf = 'a'; huruf <= 'z'; huruf++){
-    cout << huruf << endl;
-    for (huruf.uper = 'a'; huruf <= 'z'; huruf++){
+    for (huruf = 'a'; huruf <= 'z'; huruf++){
         cout << huruf << endl;
-    }
+        cout << (char)toupper(huruf) << endl;
 } 
 
 return 0;

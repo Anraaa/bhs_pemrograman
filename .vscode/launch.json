@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/root/Perkuliahan/Smt2/bhs_pemrograman/Pertemuan3",
-      "program": "/root/Perkuliahan/Smt2/bhs_pemrograman/Pertemuan3/build/Debug/outDebug",
+      "cwd": "/root/Perkuliahan/Smt2/bhs_pemrograman/tugas",
+      "program": "/root/Perkuliahan/Smt2/bhs_pemrograman/tugas/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
