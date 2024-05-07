@@ -1,0 +1,23 @@
+@startuml source1
+
+start
+:Display MENU;
+repeat
+  :Input pilihan;
+  if (pilihan == 1) then (true)
+    :Masukkan Nama Depan;
+    :Masukkan Nama Tengah;
+    :Masukkan Nama Akhir;
+    :Tampilkan Full Name;
+  else (false)
+    if (pilihan == 2) then (true)
+      :Exit;
+    else (false)
+      :Pilihan Salah;
+    endif
+  endif
+repeat while (pilihan != 2)
+:Exit;
+stop
+
+@enduml

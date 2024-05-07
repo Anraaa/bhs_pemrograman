@@ -1,0 +1,17 @@
+@startuml sample
+
+left to right direction
+
+actor user
+rectangle program{
+    user -- (menu)
+    (menu) .> (choice 1) : include
+    (menu) .> (choice 2) : extend
+    (choice 2) .> (exit) : extend
+    (choice 1) .> (input nama depan) : include
+    (input nama depan) ._> (input nama tengah) : include
+    (input nama tengah) ._> (input nama belakang) : include
+    (input nama belakang) ._> (show full name) : include
+
+}
+@enduml

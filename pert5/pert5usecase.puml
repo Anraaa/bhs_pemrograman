@@ -6,33 +6,17 @@ actor User as "User"
 
 rectangle "Source Code Pert4" {
     usecase "Input Angka" as input
-    usecase "Call Void Tambah" as tambah
-    usecase "Call Void Kurang" as kurang
-    usecase "Call Void Kali" as kali
-    usecase "Call Void Bagi" as bagi
+    usecase "Choice Menu" as menu
+    usecase "Call void tambah" as tambah
     usecase "Input Angka2" as input2
     usecase "Output" as output
     usecase "Exit" as exit
 }
 
-User --> input
-input --> menu : choice Menu
-menu --> tambah 
-tambah --> exit
-
-User --> input
-input --> menu : choice Menu
-menu --> kurang
-kurang --> exit
-
-User --> input
-input --> menu : choice Menu
-menu --> kali
-kali --> exit
-
-User --> input
-input --> menu : choice Menu
-menu --> bagi
-bagi --> exit
+User --> menu
+menu --> tambah
+tambah --> input
+tambah --> 
+input --> exit
 
 @enduml

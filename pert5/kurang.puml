@@ -1,0 +1,18 @@
+@startuml Kurang
+
+class Calculator {
+    + tambah(int a, int b)
+    + kurang(int a, int b)
+    + kali(int a, int b)
+    + bagi(int a, int b)
+    + main()
+}
+
+class ControlStatementCalculator {
+    + main()
+}
+
+ControlStatementCalculator --> Calculator
+
+
+@enduml
