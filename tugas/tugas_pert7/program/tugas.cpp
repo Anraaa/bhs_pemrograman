@@ -52,7 +52,7 @@ int main(){
                     break;
                 case 2:
                     clearScreen();
-                    sub_menu1 :
+                    sub_menu1_a:
                     cout << "Anda memilih Nasi Goreng" << endl;;
                     cout << "1. QTY " << endl;
                     cout << "2. Total " << endl;
@@ -66,19 +66,19 @@ int main(){
                     } else if (menu2 == 2){
                         harga = 18000 * pesan;
                         cout << "Jumlah Harganya adalah " << harga ;
-                        goto sub_menu1;
+                        goto sub_menu1_a;
                     } else {
                         cout << "Pilihan Tidak valid";
-                        goto sub_menu1;
+                        goto sub_menu1_a;
                     }
                     break;
                 case 3:
-                    goto sub_menu;
+                    goto sub_menu1_a;
                     break;
             }
             break;
         case 2:
-            sub_menu:
+            sub_menu2:
             clearScreen();
             cout << "MINUMAN" << endl;
             cout << "1. Teh Pucuk Rp. 5.000" << endl;
@@ -90,7 +90,7 @@ int main(){
             switch (menu3){
                 case 1:
                     clearScreen();
-                    sub_menu1 :
+                    sub_menu2_a:
                     cout << "Anda memilih Teh Pucuk " << endl;;
                     cout << "1. QTY " << endl;
                     cout << "2. Total " << endl;
@@ -100,16 +100,16 @@ int main(){
                     if (menu4 == 1){
                         cout << "Masukan Jumlah yang ingin dipesan (QTY) : " ;
                         cin >> pesan;
-                        goto sub_menu1;
+                        goto sub_menu2_a;
                     } else if (menu4 == 2){
                         harga = 5000 * pesan;
                         cout << "Jumlah Harganya adalah " << harga ;
-                        goto sub_menu1;
+                        goto sub_menu2_a;
                     }
                     break;
                 case 2:
                     clearScreen();
-                    sub_menu1 :
+                    sub_menu3:
                     cout << "Anda memilih Mizone" << endl;;
                     cout << "1. QTY " << endl;
                     cout << "2. Total " << endl;
@@ -119,20 +119,21 @@ int main(){
                     if (menu4 == 1){
                         cout << "Masukan Jumlah yang ingin dipesan (QTY) : " ;
                         cin >> pesan;
-                        goto sub_menu1;
+                        goto sub_menu3;
                     } else if (menu2 == 2){
                         harga = 8000 * pesan;
                         cout << "Jumlah Harganya adalah " << harga ;
-                        goto sub_menu1;
+                        goto sub_menu3;
                     } else {
                         cout << "Pilihan Tidak valid";
-                        goto sub_menu1;
+                        goto sub_menu3;
                     }
                     break;
                 case 3:
-                    goto sub_menu;
+                    goto sub_menu3;
                     break;
             break;
+            }
         case 3:
         return 0;
             break;
