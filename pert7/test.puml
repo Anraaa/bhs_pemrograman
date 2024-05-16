@@ -1,0 +1,29 @@
+@startuml Test
+autonumber "<b>."
+actor user
+participant "Menu" as M
+participant "Pilih Menu" as pil
+participant "Aku" as A
+participant "Dia" as D
+participant "Total" as tot
+participant "Quantity" as qty
+
+user --> M: Tampilkan Menu Utama
+M --> pil: Pilih Menu 1 atau 2, Pilih AKU atau DIA
+pil --> A: Menampilkan Profile Aku
+A --> qty: Masukan Jumlah Quantity
+qty --> tot: Print
+M <-- tot: Kembali ke Menu
+opt Exit
+    tot --> user: Exit
+end
+
+pil --> D: Menampilkan Profile Aku
+D --> qty: Masukkan Jumlah Quantity
+qty --> tot: Print
+M <-- tot: Kembali ke Menu
+opt Exit
+    tot --> user: Exit
+end
+
+@enduml
