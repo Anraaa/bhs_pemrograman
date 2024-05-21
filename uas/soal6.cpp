@@ -2,9 +2,7 @@
 
 using namespace std;
 
-void menu (int n1,int n2) {
-    int n1, n2;
-
+void menu (int &n1, int &n2) {
     cout << "Masukkan Angka Pertama : ";
     cin >> n1;
 
@@ -38,8 +36,9 @@ void bagi(int n1, int n2) {
 
 int main()
 {
+    int n1, n2;
     
-
+    menu(n1, n2);
     tambah(n1, n2);
     kurang(n1, n2);
     kali(n1, n2);
