@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+actor User
+
+User --> (Run Program)
+User --> (Input First Number)
+User --> (Input Second Number)
+User --> (View Sum Result)
+User --> (View Difference Result)
+User --> (View Product Result)
+User --> (View Quotient Result)
+@enduml
