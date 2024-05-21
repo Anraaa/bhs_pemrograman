@@ -1,0 +1,1 @@
+1. Adalah kerangka pemikiran
