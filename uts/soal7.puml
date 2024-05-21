@@ -1,4 +1,4 @@
-@startuml
+@startuml soal7
 left to right direction
 actor User
 
