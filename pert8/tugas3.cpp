@@ -105,7 +105,7 @@ int main() {
                     cout << "Doctor not found. Please try again.\n";
                     break;
                 }
-                cout << "Enter appointment time: ";
+                cout << "Enter appointment time (am/pm): ";
                 getline(cin, time);
                 scheduler.scheduleAppointment(patientName, doctorName, time);
                 cout << "Appointment scheduled successfully.\n";
