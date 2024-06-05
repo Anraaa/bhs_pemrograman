@@ -1,0 +1,25 @@
+@startuml MedicalScheduler
+start
+:Initialize MedicalScheduler;
+while (choice != 4) is (yes)
+    :Show menu;
+    :Get User Input(choice);
+    if (choice == '1') then (yes)
+        :Show Doctors;
+    else if (choice == '2') then (yes)
+        :Get Input (patientName, doctorName, time);
+        if (Doctor exists) then (yes)
+            :Schedule Appointment;
+            :Display "Appointment scheduled successfully.";
+        else (no)
+            :Display "Doctor not found. Please try again.";
+        endif
+    else if (choice == '3') then (yes)
+        :Show Appointments;
+    else (no)
+        :Display "Invalid choice, please try again.";
+    endif
+endwhile (no)
+:Display "Exiting...";
+stop
+@enduml
