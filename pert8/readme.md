@@ -12,6 +12,10 @@ Definisi: Sistem Penjadwalan Janji Temu Medis adalah aplikasi berbasis web yang 
 
 Abstrak: Dalam era digital saat ini, penjadwalan janji temu medis secara online menjadi semakin penting. Sistem Penjadwalan Janji Temu Medis adalah solusi yang dirancang untuk memenuhi kebutuhan ini. Sistem ini menargetkan klinik dan rumah sakit serta pasien yang memerlukan janji temu medis. Dengan menggunakan teknologi web dan database, sistem ini menyediakan platform di mana pasien dapat dengan mudah membuat janji dengan dokter. Selain itu, sistem ini juga menawarkan fitur unik seperti antarmuka pengguna yang ramah, notifikasi janji temu, dan pemilihan dokter berdasarkan spesialisasi. Model pendapatan berasal dari biaya layanan per janji temu atau langganan bulanan dari klinik dan rumah sakit. Untuk memastikan keberhasilan dan pertumbuhan sistem ini, strategi promosi dan pemasaran seperti iklan online, kemitraan dengan klinik dan rumah sakit, serta promosi diskon akan diterapkan.
 
+Tujuan :
+1. Meningkatkan efisiensi dan kenyamanan dalam proses penjadwalan janji temu medis bagi pasien dan dokter.
+2. Mengurangi waktu tunggu dan penundaan dalam penjadwalan janji temu dengan memanfaatkan teknologi digital.
+
 Pemahaman Bisnis:
 
 Target Pasar: Klinik dan rumah sakit, serta pasien yang memerlukan janji temu medis.
