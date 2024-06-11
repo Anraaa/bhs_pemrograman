@@ -55,4 +55,38 @@ outputnya
 ```
 ---
 #### b. Unchangeable (set)
-Tipe data set tidak bisa diganti, yang dimana nilai yang telag kita masukkan kedalam set tidak bisa diganti lagi
+Tipe data set tidak bisa diganti, yang dimana nilai yang telat kita masukkan kedalam set tidak bisa diganti lagi
+
+perhatikan contoh berikut
+```
+set_fruit = {'manggo', 'apple', True, 1, 2, 3}
+
+keyboard_= {
+    (1, 2, 3),
+    (4, 5, 6),
+    (7, 8, 9),
+    (0)
+}
+```
+
+namun kita tidak dapat menyertakan list sebagai anggota karena list tidak dapat dirubah. perhatikan contoh berikut
+```
+x = set{ 35, 100, ['a', 'b']}
+```
+
+pesan error:
+```
+Traceback (most recent call last)
+File "<stdin>", line 1, in <module>
+TypeError: unhashable type: 'list'
+```
+---
+#### c. No Duplicate Values (set)
+Di python juga tidak bisa menduplikasi suatu nilai. Jika kita memasukkan nilai yang sudah ada di dalam sebuah set, lalu nilai itu akan hanya akan muncul pada nilai yang kita masukkan pertama kali. contoh
+```
+unique_word = {
+    'morning', 'this', 'is', 'morning', 'which', 'very', 'bright'
+}
+
+print(unique_word)
+```
