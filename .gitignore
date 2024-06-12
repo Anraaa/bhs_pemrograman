@@ -1,2 +1,7 @@
 pert8/db/mariadb/ib_logfile0
 pert8/db/mariadb/ib_logfile1
+
+pert8/db/mariadb/*
+pert8/db/portgres/*
+pert8/db/mongo/*
+pert8/db/redis/*
