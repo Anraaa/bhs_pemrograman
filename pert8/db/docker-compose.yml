@@ -1,0 +1,57 @@
+version : '3'
+
+services:
+
+  mysqlpython:
+    image: mariadb:10.2
+    container_name: mysqlpython
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "23306:3306"
+    volumes:
+      - ./mariadb:/var/lib/mysql
+      - ./conf.d:/etc/mysql/conf.d:ro
+    environment:
+      MYSQL_USER: djambred
+      MYSQL_PASSWORD: p455w0rd1!.
+      MYSQL_ROOT_PASSWORD: p455w0rd
+      TZ: Asia/Jakarta
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+
+
+  postgres:
+    image: postgres:14-alpine
+    ports:
+      - 5432:5432
+    volumes:
+      - ./postgres:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=p455w0rd
+      - POSTGRES_USER=djambred
+      - POSTGRES_DB=bhs_pemrograman
+      - SERVICE_NAME=postgres
+      - SERVICE_TAGS=dev
+      - TZ=Asia/Jakarta
+  
+  mongo:
+    image: mongo:latest
+    container_name: mongo
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: p455w0rd
+    volumes:
+      - ./mongo:/mongo/db
+
+  redis:
+    image: 'bitnami/redis:latest'
+    container_name: redis
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+    volumes:
+      - ./redis:/bitnami
+    ports:
+      - "6379:6379"
