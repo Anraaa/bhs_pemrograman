@@ -1,10 +1,10 @@
 version : '3'
 services:
-  pemweb:
+  pemrog:
     build: ./php
-    image: pemweb_php:latest
-    container_name: pemweb
-    hostname: "pemweb"
+    image: pemrog_php:latest
+    container_name: pemrog
+    hostname: "pemrog"
     volumes:
       - ./src:/var/www/html
       - ./php/www.conf:/usr/local/etc/php-fpm.d/www.conf
@@ -28,15 +28,15 @@ services:
       TZ: Asia/Jakarta
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql  
-  nginx_pemweb:
+  nginx_pemrog:
     build: ./nginx
-    image: nginx_pemweb:latest
-    container_name: nginx_pemweb
-    hostname: "nginx_pemweb"
+    image: nginx_pemrog:latest
+    container_name: nginx_pemrog
+    hostname: "nginx_pemrog"
     ports:
       - "80:80"
     volumes:
       - ./src:/var/www/html
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
     depends_on:
-      - pemweb
+      - pemrog

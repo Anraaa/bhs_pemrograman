@@ -4,3 +4,4 @@ pert8/db/mongo/*
 pert8/db/redis/*
 
 pert10/db/data/*
+pert10/src/*
