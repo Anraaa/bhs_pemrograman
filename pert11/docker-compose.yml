@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  user_service:
+    build: ./user_service
+    container_name: user
+    command: uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+    volumes:
+      - ./user_service:/app
+    ports:
+      - 8000:8000
+
+  product_service:
+    build: ./product_service
+    container_name: product
+    command: uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+    volumes:
+      - ./product_service:/app
+    ports:
+      - 8001:8000
+
+  order_service:
+    build: ./order_service
+    container_name: order
+    command: uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+    volumes:
+      - ./order_service:/app
+    ports:
+      - 8002:8000
