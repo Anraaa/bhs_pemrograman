@@ -5,3 +5,6 @@ pert8/db/redis/*
 
 pert10/db/data/*
 pert10/src/*
+
+pert12/db/data/*
+pert12/src/*
